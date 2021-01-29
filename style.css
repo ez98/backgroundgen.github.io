@@ -1,0 +1,48 @@
+body{
+	background-image: linear-gradient(to right, red, blue); 
+}
+.container{
+	margin-top: 30px;
+}
+.title{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Hind', sans-serif;
+	margin: 0 auto;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	color: #1B1B1B;
+}
+.css-heading{
+	text-align: center;
+	font-size: 19px;
+	letter-spacing: 18px;
+	color: #1B1B1B;
+	text-transform: uppercase;
+	margin: 0px 205px 0px 205px;
+	border-bottom: 1.5px solid #1B1B1B;
+	padding-left: 16px;
+}
+.input{
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+}
+.css-details{
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 20px;
+}
+.random{
+	text-align: center;
+}
+.btn-dark:hover {
+  border-color: #f1c40f;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #ff9554 50%, transparent 80%);
+  background-image: linear-gradient(to right, blue 20%, red 45%, transparent 95%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background .75s ease-in-out;
+}
